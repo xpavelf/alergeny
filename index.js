@@ -44,9 +44,9 @@ const getAllergens = (ingredients, e = []) => {
       }
     })
 
-  let allergens = hits.map(hit => hit.a).sort()
+  let allergens = hits.map(hit => hit.a)
 
-  return [...new Set(allergens)]
+  return [...new Set(allergens)].sort((a, b) => a - b)
 }
 
 //console.log(getAllergens("vajecny konak, jecny, rybi tuk, pouzio v zite"))
