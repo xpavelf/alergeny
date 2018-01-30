@@ -49,6 +49,4 @@ const getAllergens = (ingredients, e = []) => {
   return [...new Set(allergens)].sort((a, b) => a - b)
 }
 
-//console.log(getAllergens("vajecny konak, jecny, rybi tuk, pouzio v zite"))
-
 module.exports.getAllergens = getAllergens
