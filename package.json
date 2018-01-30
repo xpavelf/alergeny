@@ -1,6 +1,6 @@
 {
   "name": "alergeny",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Tool for finding allergens in food ingredients. Using czech dictionary.",
   "main": "dist/index.js",
   "scripts": {
